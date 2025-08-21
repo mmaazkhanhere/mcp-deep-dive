@@ -1,3 +1,4 @@
+from pydantic import Field
 from mcp.server.fastmcp import FastMCP
 
 mcp = FastMCP(
@@ -18,8 +19,11 @@ def search_web(query: str) -> str:
     """
     return f"Result for {query} is ...."
 
-@mcp.tool()
-def get_temperature(city: str) -> str:
+@mcp.tool(
+    name="get_temperature",
+    description="A function that returns the current temperature for a given city"
+) # a different way to let the LLM know which tools are available
+def get_temperature(city: str = Field(description="The name of the city")) -> str:
     """
     A function that takes a city name and returns the current temperature.
 
