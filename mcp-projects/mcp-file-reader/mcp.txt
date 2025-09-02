@@ -1,0 +1,13 @@
+Question: What is MCP?
+Answer: MCP stands for Multi-Component Platform. It is a system that organizes, manages, and executes various software components or tools, enabling users to automate, streamline, and coordinate complex tasks across multiple functionalities.
+
+Question: What are tools in MCP?
+Answer: Tools in MCP are modular software units or components designed to perform specific tasks or operations within the platform. Each tool can be independently developed, integrated, and executed to address distinct user or system requirements.
+
+Question: What problem does MCP exactly solves? Give five short bullet points
+Answer:
+- Reduces complexity in managing multiple software components.
+- Automates the workflow across different tools and functionalities.
+- Enhances integration and interoperability among diversified tools.
+- Increases efficiency by centralizing control and execution.
+- Minimizes manual effort and potential errors in coordinating processes.
